@@ -34,13 +34,13 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO", 
     "https://github.com/WCGKING/LOKESHXMUSIC"
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDED_WORLD")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/linex_devil_bots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDRD_BOT")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,10 +78,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/b5c0e09acfb002c21fed5.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/727c460f645e466742dde.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL","https://te.legra.ph/file/0353d8c854b3420eb8dcf.jpg"
+    "PING_IMG_URL","https://te.legra.ph/file/004189d06206d224048e6.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
