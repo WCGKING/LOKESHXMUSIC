@@ -1,4 +1,3 @@
-
 import aiohttp
 
 BASE = "https://batbin.me/"
