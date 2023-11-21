@@ -20,7 +20,7 @@ from config import BANNED_USERS
 
 
 @app.on_message(
-    filters.command(get_command("START_COMMAND"))
+    filters.command(get_command(["stats", "gstats"]) & filters.group & ~BANNED_USERS)
     & filters.private
     & ~filters.edited
     & ~BANNED_USERS
