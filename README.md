@@ -1,5 +1,5 @@
-# <h2 align="center">
-    ──「  𝐋𝐎𝐊𝐄𝐒𝐇 𝓧 𝐌𝐔𝐒𝐈𝐂 」──
+README.md<h2 align="center">
+           ──「  𝐋𝐎𝐊𝐄𝐒𝐇 𝓧 𝐌𝐔𝐒𝐈𝐂 」──
 </h2>
 
 <p align="center">
@@ -17,7 +17,7 @@
   <img src="https://telegra.ph/file/2ca9afbd8cbf69b6ea49b.jpg">
 </p>
 
-     <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
+     <b> 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦 </b>
      </p>
 
 <h3 align="center">
