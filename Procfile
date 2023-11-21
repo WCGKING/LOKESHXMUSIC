@@ -1,3 +1,1 @@
 worker: bash start
-
-
