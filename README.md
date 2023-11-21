@@ -17,8 +17,8 @@ README.md<h2 align="center">
   <img src="https://telegra.ph/file/2ca9afbd8cbf69b6ea49b.jpg">
 </p>
 
-     <b> 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦 </b>
-     </p>
+<b> 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦 </b>
+</p>
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
