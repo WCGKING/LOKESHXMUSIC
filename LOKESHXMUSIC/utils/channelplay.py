@@ -1,4 +1,3 @@
-
 from LOKESHXMUSIC import app
 from LOKESHXMUSIC.utils.database import get_cmode
 
