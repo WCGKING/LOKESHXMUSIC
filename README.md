@@ -86,3 +86,6 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 <p align="center">
 <a href="https://github.com/WCGKING"> <img src="https://img.shields.io/badge/WCGKING-black?style=for-the-badge&logo=github" alt="WCGKING" /> </a>
+
+
+- <b> sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʙʀᴀɴᴅᴇᴅ](https://github.com/WCGKING) ғᴏʀ [ʙʀᴀɴᴅᴇᴅ ᴍᴜsɪᴄ ʙᴏᴛ](https://github.com/WCGKING/SYSTUM). </b>
