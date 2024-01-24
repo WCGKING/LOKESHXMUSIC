@@ -84,7 +84,7 @@ async def gen_thumb(videoid):
             background = enhancer.enhance(0.6)
             image2 = background
                                                                                             
-            circle = Image.open("assets/circle.png")
+            circle = Image.open("LOKESHXMUSIC/assets/circle.png")
 
             # changing circle color
             im = circle
@@ -116,13 +116,13 @@ async def gen_thumb(videoid):
             image2.paste(circle, (0,0), mask = circle)
 
             # fonts
-            font1 = ImageFont.truetype('assets/font.ttf', 30)
-            font2 = ImageFont.truetype('assets/font2.ttf', 70)
-            font3 = ImageFont.truetype('assets/font2.ttf', 40)
-            font4 = ImageFont.truetype('assets/font2.ttf', 35)
+            font1 = ImageFont.truetype('LOKESHXMUSIC/assets/font.ttf', 30)
+            font2 = ImageFont.truetype('LOKESHXMUSIC/assets/font2.ttf', 70)
+            font3 = ImageFont.truetype('LOKESHXMUSIC/assets/font2.ttf', 40)
+            font4 = ImageFont.truetype('LOKESHXMUSIC/assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
-            image4.text((10, 10), "MUSIC BOT", fill="white", font = font1, align ="left") 
+            image4.text((10, 10), "BRANDED MUSIC", fill="white", font = font1, align ="left") 
             image4.text((670, 150), "NOW PLAYING", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
             # title
