@@ -252,7 +252,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                     video=status,
                 )
             except:
-                 try:
+                try:
                     file_path, direct = await YTB.download(
                         videoid,
                         mystic,
