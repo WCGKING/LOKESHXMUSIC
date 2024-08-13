@@ -5,7 +5,7 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from LOKESHXMUSIC import Carbon, YouTube, app, YTB
+from LOKESHXMUSIC import Carbon, YouTube, app
 from LOKESHXMUSIC.core.call import Anony
 from LOKESHXMUSIC.misc import db
 from LOKESHXMUSIC.utils.database import add_active_video_chat, is_active_chat
@@ -78,12 +78,7 @@ async def stream(
                         vidid, mystic, video=status, videoid=True
                     )
                 except:
-                    try:
-                        file_path, direct = await YTB.download(
-                            vidid, mystic, video=status, videoid=True
-                        )
-                    except:
-                        raise AssistantErr(_["play_14"])
+                    raise AssistantErr(_["play_14"])
                 await Anony.join_call(
                     chat_id,
                     original_chat_id,
@@ -147,12 +142,7 @@ async def stream(
                 vidid, mystic, videoid=True, video=status
             )
         except:
-            try:
-                file_path, direct = await YTB.download(
-                    vidid, mystic, videoid=True, video=status
-                )
-            except:
-               raise AssistantErr(_["play_14"])
+            raise AssistantErr(_["play_14"])
         if await is_active_chat(chat_id):
             await put_queue(
                 chat_id,
