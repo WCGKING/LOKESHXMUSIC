@@ -17,7 +17,7 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from LOKESHXMUSIC import LOGGER, YouTube, app, YTB
+from LOKESHXMUSIC import LOGGER, YouTube, app
 from LOKESHXMUSIC.misc import db
 from LOKESHXMUSIC.utils.database import (
     add_active_chat,
@@ -416,15 +416,7 @@ class Call(PyTgCalls):
                         video=True if str(streamtype) == "video" else False,
                     )
                 except:
-                    try:
-                        file_path, direct = await YTB.download(
-                            videoid,
-                            mystic,
-                            videoid=True,
-                            video=str(streamtype) == "video",
-                        )
-                    except:
-                        return await mystic.edit_text(
+                    return await mystic.edit_text(
                         _["call_6"], disable_web_page_preview=True
                     )
                 if video:
