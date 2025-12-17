@@ -1,18 +1,14 @@
 import asyncio
 import os
 import re
-import json
-from typing import Union
-import requests
-import yt_dlp
+from typing import Union, Optional
+import httpx
+
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
-from LOKESHXMUSIC.utils.database import is_on_off
+
 from LOKESHXMUSIC.utils.formatters import time_to_seconds
-import glob
-import logging
-import aiohttp
 
 
 # API Configuration
