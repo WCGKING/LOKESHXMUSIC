@@ -13,3 +13,4 @@ RUN python -m pip install --no-cache-dir --upgrade pip
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
 CMD bash start
+
