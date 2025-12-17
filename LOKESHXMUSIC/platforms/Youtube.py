@@ -15,19 +15,20 @@ import glob
 import random
 import logging
 import aiohttp
-import config
-from config import API_URL, VIDEO_API_URL, API_KEY
 
 
-def cookie_txt_file():
-    cookie_dir = f"{os.getcwd()}/cookies"
-    if not os.path.exists(cookie_dir):
-        return None
-    cookies_files = [f for f in os.listdir(cookie_dir) if f.endswith(".txt")]
-    if not cookies_files:
-        return None
-    cookie_file = os.path.join(cookie_dir, random.choice(cookies_files))
-    return cookie_file
+# API Configuration
+API_BASE_URL = "https://youtubify.me"
+API_KEY = "773f80726ade410590c486d23db96a62"
+
+
+# Streaming configuration
+ENABLE_STREAMING = True  # Enable streaming URLs for VC (no file size limit)
+MAX_DOWNLOAD_SIZE_MB = 48  # Only download files smaller than this (for direct uploads)
+STREAM_MODE_DURATION_THRESHOLD = 1200  # 20 minutes - files longer than this will use streaming URLs
+
+
+
 
 async def download_song(link: str):
     video_id = link.split('v=')[-1].split('&')[0]
