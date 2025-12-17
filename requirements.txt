@@ -15,6 +15,7 @@ py-tgcalls==0.9.7
 pykeyboard
 python-dotenv
 pyyaml
+numpy
 requests
 spotipy
 speedtest-cli
