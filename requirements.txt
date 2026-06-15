@@ -24,4 +24,5 @@ unidecode
 yt-dlp
 youtube-search
 youtube-search-python
+py-yt-search
 https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip
